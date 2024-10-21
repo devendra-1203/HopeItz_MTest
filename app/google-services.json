@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413436673135",
+    "project_id": "devhopeitmtest",
+    "storage_bucket": "devhopeitmtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413436673135:android:e7da413e10b7f93bd8619a",
+        "android_client_info": {
+          "package_name": "com.example.devhopeitmtest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsTNjIsziSfk5DeaepdIZdPoI9771eM54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
