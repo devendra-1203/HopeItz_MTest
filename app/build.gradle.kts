@@ -54,6 +54,7 @@ dependencies {
     implementation("com.google.firebase:firebase-config")
    // implementation("com.google.code.gson:gson:2.10.1")
     implementation ("com.squareup.retrofit2:converter-gson:2.7.2")
+    implementation("com.github.bumptech.glide:glide:4.15.0")
 
 
 }

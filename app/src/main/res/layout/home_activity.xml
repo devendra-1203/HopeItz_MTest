@@ -5,20 +5,22 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="200dp">
 
     </androidx.recyclerview.widget.RecyclerView>
 
     <ImageView
         android:layout_below="@+id/recycler_view"
-        android:layout_marginTop="50dp"
-        android:id="@+id/home_logo"
-        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/home_banaer"
+        android:layout_width="match_parent"
         android:layout_centerHorizontal="true"
         android:src="@mipmap/ic_launcher_round"
-        android:layout_height="wrap_content"></ImageView>
+        android:layout_height="200dp"></ImageView>
 
     <Button
         android:id="@+id/details_button"
@@ -26,7 +28,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:text="Show Details"
-        android:layout_below="@+id/home_logo"
+        android:layout_below="@+id/home_banaer"
         android:layout_height="50dp"></Button>
 
 </RelativeLayout>

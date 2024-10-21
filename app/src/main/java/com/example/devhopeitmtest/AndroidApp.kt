@@ -1,16 +1,16 @@
 package com.example.devhopeitmtest
 
 data class AndroidApp(
-    val app_url: String,
-    val banner: String,
-    val logo: String,
-    val name: String,
-    val pkg: String,
-    val publisher: String,
-    val scheme: String,
-    val showcompoptsad: String,
-    val showindex: String,
-    val showmidad: String,
-    val showondetail: String,
-    val subtitle: String
+    var app_url: String?,
+    var banner: String?,
+    var logo: String?,
+    var name: String?,
+    var pkg: String?,
+    var publisher: String?,
+    var scheme: String?,
+    var showcompoptsad: String?,
+    var showindex: String?,
+    var showmidad: String?,
+    var showondetail: String?,
+    var subtitle: String?
 )
