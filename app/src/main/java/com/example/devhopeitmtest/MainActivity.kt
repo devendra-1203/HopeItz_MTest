@@ -20,15 +20,15 @@ class MainActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
 
-      //  remoteConfig = Firebase.remoteConfig
-    //    val configsett= remoteConfigSettings {
-        //    minimumFetchIntervalInSeconds = 3600
-  //      }
+//        remoteConfig = Firebase.remoteConfig
+//        val configsett= remoteConfigSettings {
+//            minimumFetchIntervalInSeconds = 3600
+//        }
         goTOHomeScreen()
-       // remoteConfig.setConfigSettingsAsync(configsett)
-     //   remoteConfig.setDefaultsAsync(R.xml.remote_config_default)
-
-       // fetchConfig()
+//        remoteConfig.setConfigSettingsAsync(configsett)
+//        remoteConfig.setDefaultsAsync(R.xml.remote_config_default)
+//
+//        fetchConfig()
     }
 
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -17,9 +18,9 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:id="@+id/home_banaer"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_centerHorizontal="true"
-        android:src="@mipmap/ic_launcher_round"
+        android:src="@drawable/default_image"
         android:layout_height="200dp"></ImageView>
 
     <Button
@@ -28,7 +29,81 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:text="Show Details"
+        android:backgroundTint="@color/purple_200"
+        android:layout_gravity="center_horizontal"
         android:layout_below="@+id/home_banaer"
         android:layout_height="50dp"></Button>
 
-</RelativeLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:layout_margin="10dp"
+           android:textColor="@color/black"
+           android:textSize="12sp"
+           android:text="Name:- "
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <TextView
+           android:layout_margin="10dp"
+           android:id="@+id/tvName"
+           android:textColor="@color/black"
+           android:textSize="12sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:text="Sub Title:- "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:text="Publisher:- "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvpublisher"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
